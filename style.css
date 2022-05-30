@@ -124,12 +124,12 @@
 .area-input {
   width: 226px;
 }
-.btn__del .btn__img {
+.btn__delete .btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn__del .btn__img:hover {
+.btn__delete .btn__img:hover {
   transform: rotateZ(0);
 }
 
