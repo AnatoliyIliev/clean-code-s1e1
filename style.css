@@ -41,7 +41,8 @@
   margin: 0;
   padding: 0px;
 }
-.list__item, .title {
+.list__item, 
+.title {
   list-style: none;
 }
 .area-checkbox,
