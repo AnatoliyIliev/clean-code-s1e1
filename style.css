@@ -28,7 +28,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.area-lable
+.area-lable,
 .area-input {
   width: 56%;
   display: inline-block;
@@ -63,8 +63,7 @@
   color: #3a3A3a;
 }
 /* Heading */
-.title,
-.section-row__add__item {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -90,7 +89,7 @@
 }
 
 /* New Task */
-.section-row__add__item {
+.section-row__add__item .title {
   display: block;
   margin: 0 0 20px;
 }

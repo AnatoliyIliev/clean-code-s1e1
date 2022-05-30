@@ -5,23 +5,23 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" >
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img class="header-img" src="./eisenhower-matrix.jpg" alt="The Eisenhower matrix">
       <a class="header-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <section class="section-row" id="top-section-for-adding-element-to-list">
-        <h2 class="section-row__add__item" for="new-task">Add Item</h2>
+      <section class="section-row section-row__add__item" id="top-section-for-adding-element-to-list">
+        <h2 class="title" for="new-task">Add Item</h2>
         <div class="section-row__wrapper">
           <input id="new-task" class="area-input" type="text">
-          <button class="btn">Add</button>
+          <button class="btn btn-add">Add</button>
         </div>
       </section>
       <section>
         <h2 class="title">Todo</h2>
         <ul class="list" id="incomplete-tasks">
-          <li class="list__item list__item__edit-mode">
+          <li class="list__item">
             <input class="area-checkbox" type="checkbox">
             <label class="area-lable">Pay Bills</label>
             <input type="text" class="area-input">
@@ -41,14 +41,14 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="completed-tasks">
         <h2 class="title">Completed</h2>
-        <ul class="list list_complet" id="completed-tasks">
+        <ul class="list list_complet">
           <li class="list__item">
             <input class="area-checkbox" type="checkbox" checked>
             <label class="area-lable">See the Doctor</label>
             <input type="text" class="area-input">
-            <button class="btn btn-edit">Edit</button>
+            <button class="btn btn__edit">Edit</button>
             <button class="btn btn__delete">
               <img class="btn__img" src="./remove.svg" alt="Remove">
             </button>
